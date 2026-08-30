@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sumit Chaurasia</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0%25' stop-color='%234f9cf9'/%3E%3Cstop offset='100%25' stop-color='%237c3aed'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='32' height='32' rx='8' fill='%23080b14'/%3E%3Crect x='1' y='1' width='30' height='30' rx='7' fill='none' stroke='url(%23g)' stroke-width='1.5'/%3E%3Ctext x='16' y='22' font-family='monospace' font-weight='700' font-size='15' text-anchor='middle' fill='url(%23g)'%3ESC%3C/text%3E%3C/svg%3E" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
@@ -769,7 +770,7 @@
             <div>&nbsp;&nbsp;<span class="t-key">"role"</span>: <span class="t-val">"Data Engineer"</span>,</div>
             <div>&nbsp;&nbsp;<span class="t-key">"experience"</span>: <span class="t-val">"4 years"</span>,</div>
             <div>&nbsp;&nbsp;<span class="t-key">"stack"</span>: <span class="t-val">"SQL", "Python", "Spark", "AWS", "AI/BI"</span>,</div>
-            <div>&nbsp;&nbsp;<span class="t-key">"focus"</span>: <span class="t-val">"Scalable · Reliable · Impactful"</span></div>
+            <div>&nbsp;&nbsp;<span class="t-key">"focus"</span>: <span class="t-val">"Scalable · Robust · Valuable"</span></div>
             <div><span class="t-comment">}</span></div>
             <div><span class="t-prompt">❯</span> <span class="t-cursor"></span></div>
           </div>
@@ -804,7 +805,7 @@
             <div class="stat-label">Years experience</div>
           </div>
           <div class="stat-card">
-            <div class="stat-num">12+</div>
+            <div class="stat-num">7+</div>
             <div class="stat-label">Data projects</div>
           </div>
           <div class="stat-card">
@@ -812,7 +813,7 @@
             <div class="stat-label">Events / day</div>
           </div>
           <div class="stat-card">
-            <div class="stat-num">99.9%</div>
+            <div class="stat-num">97.4%</div>
             <div class="stat-label">Pipeline uptime</div>
           </div>
         </div>
@@ -834,10 +835,10 @@
           <div class="skill-name">Python</div>
           <div class="skill-desc">Primary language for pipeline development, data wrangling, and automation scripts.</div>
           <div class="skill-tags">
-            <span class="tag">pandas</span>
-            <span class="tag">pyspark</span>
-            <span class="tag">fastapi</span>
-            <span class="tag">pytest</span>
+            <span class="tag">Pandas</span>
+            <span class="tag">PySpark</span>
+            <span class="tag">FastAPI</span>
+            <span class="tag">PyTest</span>
           </div>
         </div>
 
@@ -846,8 +847,8 @@
           <div class="skill-name">SQL & Data Modeling</div>
           <div class="skill-desc">Writing performant queries, designing schemas, and building Kimball-style dimensional models.</div>
           <div class="skill-tags">
-            <span class="tag">postgres</span>
-            <span class="tag">BigQuery</span>
+            <span class="tag">MySQL</span>
+            <span class="tag">Postgres</span>
             <span class="tag">Redshift</span>
           </div>
         </div>
@@ -864,35 +865,13 @@
         </div>
 
         <div class="skill-card reveal">
-          <div class="skill-icon green">dbt</div>
-          <div class="skill-name">dbt</div>
-          <div class="skill-desc">Transformation layer modelling with version-controlled SQL, tests, and documentation baked in.</div>
-          <div class="skill-tags">
-            <span class="tag">dbt Core</span>
-            <span class="tag">dbt Cloud</span>
-            <span class="tag">Jinja</span>
-          </div>
-        </div>
-
-        <div class="skill-card reveal">
-          <div class="skill-icon purple">🌀</div>
-          <div class="skill-name">Apache Airflow</div>
-          <div class="skill-desc">Orchestrating complex dependency graphs for daily batch jobs and event-triggered pipelines.</div>
-          <div class="skill-tags">
-            <span class="tag">DAGs</span>
-            <span class="tag">operators</span>
-            <span class="tag">sensors</span>
-          </div>
-        </div>
-
-        <div class="skill-card reveal">
           <div class="skill-icon amber">☁</div>
           <div class="skill-name">Cloud & Infra</div>
           <div class="skill-desc">Provisioning and managing cloud data infrastructure with IaC and CI/CD best practices.</div>
           <div class="skill-tags">
             <span class="tag">AWS</span>
-            <span class="tag">GCP</span>
-            <span class="tag">Terraform</span>
+            <span class="tag">Azure</span>
+            <span class="tag">Kubernates</span>
             <span class="tag">Docker</span>
           </div>
         </div>
@@ -912,64 +891,86 @@
 
         <div class="project-card reveal">
           <div class="project-header">
-            <div class="project-badge badge-blue">Batch Pipeline</div>
-            <div class="project-title">Real-Time Event Lake</div>
-            <p class="project-desc">End-to-end ELT pipeline ingesting clickstream events into a Spark-powered Delta Lake, with dbt models serving the analytics layer.</p>
+            <div class="project-badge badge-blue">ETL/ELT Pipeline</div>
+            <div class="project-title">Databricks ETL/ELT with CDC</div>
+            <p class="project-desc">Designed and maintained scalable ETL/ELT pipelines on AWS Databricks using PySpark and Spark SQL, with AWS DMS-based Change Data Capture (CDC) enabling near real-time incremental replication.</p>
           </div>
           <div class="project-body">
             <div class="project-metrics">
-              <div class="metric"><div class="metric-val">500M</div><div class="metric-label">Events / day</div></div>
-              <div class="metric"><div class="metric-val">2.4s</div><div class="metric-label">P99 latency</div></div>
-              <div class="metric"><div class="metric-val">62%</div><div class="metric-label">Cost saved</div></div>
+              <div class="metric"><div class="metric-val">1TB+</div><div class="metric-label">Data processed</div></div>
+              <div class="metric"><div class="metric-val">30%</div><div class="metric-label">Faster runtime</div></div>
+              <div class="metric"><div class="metric-val">25%</div><div class="metric-label">Faster jobs</div></div>
             </div>
             <div class="project-stack">
               <span class="stack-tag">PySpark</span>
+              <span class="stack-tag">Spark SQL</span>
+              <span class="stack-tag">AWS DMS</span>
+              <span class="stack-tag">Databricks</span>
+              <span class="stack-tag">Airflow</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-header">
+            <div class="project-badge badge-purple">Modeling & Warehousing</div>
+            <div class="project-title">Medallion Lakehouse Architecture</div>
+            <p class="project-desc">Built and optimized Delta Lake tables using medallion architecture (Bronze/Silver/Gold) with incremental processing and schema evolution, orchestrated via Databricks Jobs/Workflows with S3, Lambda and Glue.</p>
+          </div>
+          <div class="project-body">
+            <div class="project-metrics">
+              <div class="metric"><div class="metric-val">40%</div><div class="metric-label">Less reprocessing</div></div>
+              <div class="metric"><div class="metric-val">20%</div><div class="metric-label">Lower compute cost</div></div>
+              <div class="metric"><div class="metric-val">35%</div><div class="metric-label">Fewer incidents</div></div>
+            </div>
+            <div class="project-stack">
               <span class="stack-tag">Delta Lake</span>
-              <span class="stack-tag">dbt</span>
-              <span class="stack-tag">Airflow</span>
-              <span class="stack-tag">AWS S3</span>
+              <span class="stack-tag">Databricks Jobs</span>
+              <span class="stack-tag">AWS Glue</span>
+              <span class="stack-tag">AWS Lambda</span>
+              <span class="stack-tag">S3</span>
             </div>
           </div>
         </div>
 
         <div class="project-card reveal">
           <div class="project-header">
-            <div class="project-badge badge-purple">Data Modeling</div>
-            <div class="project-title">Analytics Warehouse Migration</div>
-            <p class="project-desc">Migrated a monolithic legacy ETL system to a modular dbt project with >200 models, full test coverage, and automated documentation.</p>
+            <div class="project-badge badge-green">AI</div>
+            <div class="project-title">Text-to-SQL AI Agent</div>
+            <p class="project-desc">Built a natural-language querying agent for a school ERP system using Google's ADK SDK, letting non-technical users query structured data conversationally.</p>
           </div>
           <div class="project-body">
             <div class="project-metrics">
-              <div class="metric"><div class="metric-val">200+</div><div class="metric-label">dbt models</div></div>
-              <div class="metric"><div class="metric-val">98%</div><div class="metric-label">Test coverage</div></div>
-              <div class="metric"><div class="metric-val">5×</div><div class="metric-label">Query speed</div></div>
+              <div class="metric"><div class="metric-val">35%</div><div class="metric-label">Fewer report requests</div></div>
+              <div class="metric"><div class="metric-val">1</div><div class="metric-label">ERP system</div></div>
+              <div class="metric"><div class="metric-val">0</div><div class="metric-label">SQL required</div></div>
             </div>
             <div class="project-stack">
-              <span class="stack-tag">dbt Core</span>
-              <span class="stack-tag">Snowflake</span>
+              <span class="stack-tag">Google ADK SDK</span>
               <span class="stack-tag">Python</span>
-              <span class="stack-tag">GitHub Actions</span>
+              <span class="stack-tag">SQL</span>
+              <span class="stack-tag">LLM Agents</span>
             </div>
           </div>
         </div>
 
         <div class="project-card reveal">
           <div class="project-header">
-            <div class="project-badge badge-green">Orchestration</div>
-            <div class="project-title">ML Feature Store Pipeline</div>
-            <p class="project-desc">Designed and built a feature engineering pipeline with Airflow scheduling, serving pre-computed features to upstream ML models with guaranteed freshness SLAs.</p>
+            <div class="project-badge badge-blue">Data Governance</div>
+            <div class="project-title">Data Governance in Secoda</div>
+            <p class="project-desc">Cataloged datasets and documented lineage across pipelines in Secoda, set up data quality monitors and access policies, and implemented column-level tagging with PII classification for sensitive fields.</p>
           </div>
           <div class="project-body">
             <div class="project-metrics">
-              <div class="metric"><div class="metric-val">40+</div><div class="metric-label">Features</div></div>
-              <div class="metric"><div class="metric-val">99.9%</div><div class="metric-label">SLA uptime</div></div>
-              <div class="metric"><div class="metric-val">3 min</div><div class="metric-label">Freshness</div></div>
+              <div class="metric"><div class="metric-val">✓</div><div class="metric-label">Lineage documented</div></div>
+              <div class="metric"><div class="metric-val">✓</div><div class="metric-label">Quality monitors</div></div>
+              <div class="metric"><div class="metric-val">✓</div><div class="metric-label">PII tagging</div></div>
             </div>
             <div class="project-stack">
-              <span class="stack-tag">Airflow</span>
-              <span class="stack-tag">PySpark</span>
-              <span class="stack-tag">Redis</span>
-              <span class="stack-tag">PostgreSQL</span>
+              <span class="stack-tag">Secoda</span>
+              <span class="stack-tag">Data Cataloging</span>
+              <span class="stack-tag">Access Policies</span>
+              <span class="stack-tag">PII Classification</span>
             </div>
           </div>
         </div>
@@ -987,37 +988,26 @@
         <p class="section-sub">Four years building data infrastructure across different domains and team sizes.</p>
       </div>
       <div class="timeline">
-<!--
-		<div class="timeline-item reveal">
-          <div class="exp-period">2023 — Present</div>
-          <div class="exp-role">Senior Data Engineer</div>
-          <div class="exp-company">DataFlow Inc. · Full-time</div>
-          <ul class="exp-points">
-            <li>Architected a Delta Lake ingestion platform processing 500M+ daily events, replacing a costly Firehose setup and cutting storage spend by 62%.</li>
-            <li>Led migration of 200+ legacy ETL jobs to modular dbt models with CI/CD test gates on every PR.</li>
-            <li>Mentored 2 junior engineers; introduced data contracts and schema validation standards team-wide.</li>
-          </ul>
-        </div>
--->
+
         <div class="timeline-item reveal">
           <div class="exp-period">July, 2023 — Present</div>
           <div class="exp-role">Data Engineer</div>
-          <div class="exp-company">Bittwobyte Technology</div>
+          <div class="exp-company">BitTwoByte Technology (Remote)</div>
           <ul class="exp-points">
-            <li>Built and maintained 30+ Airflow DAGs orchestrating nightly batch jobs across 5 upstream sources.</li>
-            <li>Designed dimensional models in Redshift serving 15 analysts and a customer-facing BI dashboard.</li>
-            <li>Reduced average pipeline failure rate from 8% to under 0.5% through improved alerting and retry logic.</li>
+            <li>Designed, developed and maintained scalable ETL/ELT pipelines on AWS Databricks using PySpark and Spark SQL, processing 1+ TB data, and implemented AWS DMS-based Change Data Capture (CDC) for near real-time incremental replication, reducing pipeline runtime by 30%.</li>
+            <li>Orchestrated production workflows using Databricks Jobs/Workflows integrated with AWS services (S3, Lambda, Glue) and Apache Airflow, improving pipeline reliability and reducing manual intervention by 40%.</li>
+            <li>Built a text-to-SQL AI agent for a school ERP system using Google's ADK SDK, enabling non-technical users to query structured data via natural language and reducing manual reporting requests by 35%.</li>
+            <li>Established Data Governance in Secoda by cataloging datasets and documenting lineage across pipelines, setting up data quality monitors and access policies, and implementing column-level tagging with PII classification for sensitive fields.</li>
           </ul>
         </div>
 
         <div class="timeline-item reveal">
           <div class="exp-period">July, 2022 — April, 2023</div>
           <div class="exp-role">Associate Software Engineer</div>
-          <div class="exp-company">Hexaware Technologies</div>
+          <div class="exp-company">Hexaware Technology (Pune)</div>
           <ul class="exp-points">
-            <li>Wrote Python ingestion scripts pulling from REST APIs and loading into PostgreSQL staging tables.</li>
-            <li>Automated manual SQL reporting workflows, saving the analytics team ~8 hours per week.</li>
-            <li>Contributed to internal data quality framework used across the engineering org.</li>
+            <li>Engineered the data layer for a vehicle management system using SQL Server and .NET, designing normalized schemas and optimized queries that improved data retrieval performance by 25% across operational workflows.</li>
+            <li>Managed database versioning, schema changes and collaborative development using Git/GitHub, implementing structured branching and review workflows that reduced deployment errors by 20%.</li>
           </ul>
         </div>
 
